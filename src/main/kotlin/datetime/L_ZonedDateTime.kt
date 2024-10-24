@@ -37,7 +37,6 @@ fun main() {
     val currentTimePavlodarWithZonedDateTime = ZonedDateTime.now()
     println(currentTimePavlodarWithZonedDateTime)
 
-    val res = currentTimePavlodarWithZonedDateTime to "Time in Pavlodar"
     //Пример как узнать текущую зону, например "Europe/Paris". Тип ZoneId!
     println(currentTimePavlodarWithZonedDateTime.zone)
 

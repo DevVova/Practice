@@ -27,4 +27,11 @@ import java.time.Instant
 fun main() {
     val instant = Instant.now()
     println(instant)
+    println(instant.epochSecond)//Перевод объекта типа Instant в секунды.
+    println(instant.toEpochMilli())//Перевод объекта типа Instant в миллисекунды.
+
+    //А теперь примеры как время в секундах преобразовать в объект Instant.
+    val sec: Long = 1729712678
+    val newInstant = Instant.ofEpochSecond(sec)
+    println(newInstant)
 }
