@@ -24,7 +24,7 @@ fun getTSLabCandlesticksFromBinance(symbol: String, inputListQuotes: List<Binanc
         outputVKlines.add(vkline)
     }
 
-    return outputVKlines.reversed()
+    return outputVKlines
 }
 
 fun getTSLabDate(inputQuotes: BinanceCandlestick): String {
