@@ -13,7 +13,7 @@ fun saveDateInTxt() {
     // Данные из функции, которая возвращает список candlesticks
     val newList = getTSLabCandlesticksFromBinance(
         symbol = symbol,
-        getBinanceCandlesticks(symbol = symbol, limit = 6000)
+        getBinanceCandlesticks(symbol = symbol, limit = 530000)
     )
 
     // Открываем BufferedWriter для записи
